@@ -1,15 +1,4 @@
 
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
-# 讀取 Google Maps API Key
-GOOGLE_MAPS_API_KEY = os.getenv("GOOGLE_MAPS_API_KEY")
-
-
-
-
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
