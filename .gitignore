@@ -173,3 +173,6 @@ cython_debug/
 
 
 my_record.md
+
+node_modules/
+.vscode/
