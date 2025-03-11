@@ -74,3 +74,10 @@ def get_location(request):
 
     except Exception as e:
         return JsonResponse({"error": str(e)}, status=500)
+
+
+
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Welcome to the API home page")
