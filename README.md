@@ -64,3 +64,9 @@ npm run dev
 ```
 Vue 伺服器運行 http://localhost:5173/
 
+### ** 測試 **
+讓使用者輸入地點名稱（如：台北101、高雄85大樓），點擊「查詢」按鈕
+![image](https://github.com/user-attachments/assets/3e34ccae-5ade-486a-ba6d-85f75a68859f)
+顯示地點資訊 & 天氣資訊
+![image](https://github.com/user-attachments/assets/e7399926-07df-414d-8926-c9b455ee1030)
+
