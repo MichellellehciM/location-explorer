@@ -31,8 +31,19 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-size: 3em;
+  line-height: 1;
+  
+}
+
+h2 {
+  font-size: 2.6em;
+  line-height: 1.2;
+}
+h4 {
+  font-size: 1em;
+  line-height: 0.8;
+  color: #fdf3b9;
 }
 
 button {
@@ -59,10 +70,14 @@ button:focus-visible {
 }
 
 #app {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 @media (prefers-color-scheme: light) {
@@ -77,3 +92,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
